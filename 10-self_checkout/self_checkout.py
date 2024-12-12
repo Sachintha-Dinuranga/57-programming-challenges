@@ -10,7 +10,7 @@ for i in range(3):
             break
         except ValueError:
             print("Enter valid values")
-    
+    # Calculate the subtotal for each item
     subtotal += item_price * item_quantity
 
 # Calculate tax and total
